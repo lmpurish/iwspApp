@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+    justify-content: center;
+    max-height: 740px;
+}
+.img-home{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    
+    
+    
+}
+

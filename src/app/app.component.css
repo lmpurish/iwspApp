@@ -1,0 +1,43 @@
+
+@media (min-width: 300px) {
+    .banner {
+        background: url("/assets/images/480.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+}
+
+@media (min-width: 480px) {
+    .banner {
+        background: url("/assets/images/480.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+}
+
+/* Imagen utilizada en pantallas de anchura 768 px y superior */
+@media (min-width: 768px) {
+    .banner {
+        background: url("/assets/img/Banner.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 900px;
+       
+    }
+}
+
+/* Imagen utilizada en pantallas de anchura 1200 px y superior */
+@media (min-width: 1200px) {
+    .banner {
+        background: url("/assets/img/BannerFinal.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 900px;
+    }
+}

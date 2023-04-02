@@ -1,0 +1,20 @@
+<div id="toggle-menu" class="toggle-menu">
+  <a (click)="toggle()"><img src="assets/img/bar3.png" alt="" ></a>
+</div>
+<div class="main-logo">
+  <a [routerLink]="['/']"><img class="logoXL" src="assets/img/logo/logoXL.png" alt=""></a>
+</div>
+<nav  class="main-nav" [hidden]="isExpanded">
+  <ul id="main-menu" class="main-menu main-menu-left">
+    <li class="main-menu__item"><a class="main-menu__link" [routerLink]="['/']" title="Home"><img src="assets/img/home.png" alt=""> <label class="show-text">Home</label></a></li>
+    <li class="main-menu__item"><a class="main-menu__link" title="SignUp / Login" [routerLink]="['/signUp']" ><img src="assets/img/logout.png" alt=""> <label class="show-text">SignUp</label></a></li>
+    <li class="main-menu__item" (click)="show()" [hidden]="showMe" title="Español" ><a class="main-menu__link" ><img src="assets/img/ES.png" alt=""> <label class="show-text">Español</label></a></li>
+    <li class="main-menu__item" (click)="show()" [hidden]="!showMe" title="English"><a class="main-menu__link"><img src="assets/img/EN.png" alt=""> <label class="show-text">Español</label></a></li>
+  </ul>
+  <ul class="main-menu main-menu-rigth">
+    <li class="main-menu__item"><a class="main-menu__link" title="Facebook" href=""><img src="assets/img/facebook.png" alt=""> <label class="show-text">Facebook</label> </a></li>
+    <li class="main-menu__item"><a class="main-menu__link" title="Linkedin" href=""><img src="assets/img/Linkedin.png" alt=""></a> <label class="show-text">Linkedin</label> </li>
+    <li class="main-menu__item"><a class="main-menu__link" title="Instagram" href=""><img src="assets/img/Instagram.png" alt=""></a> <label class="show-text">Instagram</label></li>
+  </ul>
+</nav>
+

@@ -1,0 +1,31 @@
+.booton{
+    margin-bottom: 0px;
+    height: 70px;
+    background-color: #FF6600;
+    
+}
+.booton-poligon-container {
+    display: flex;
+  }
+
+  .booton-left {
+    width: 15%;
+    border-right: 35px solid transparent;
+    border-left: 55px solid #FF6600;
+    border-bottom: 55px solid #FF6600;
+  }
+  .booton-rigth {
+    width: 15%;
+    margin-left: auto;
+    border-right: 55px solid #FF6600;
+    border-left: 35px solid transparent;
+    border-bottom: 55px solid #FF6600;
+    
+}
+.booton h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}

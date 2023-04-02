@@ -1,0 +1,18 @@
+.info{
+    margin-top: 50px;
+    min-height: 700px ;
+    display: flex;
+    justify-content: center;
+   
+}
+.form-login{
+    max-width: 450px;
+    max-height: 500px;
+    padding: 25px;
+    box-shadow: rgba(240, 132, 8, 0.1) 0px 4px 16px, rgba(110, 50, 9, 0.1) 0px 8px 24px, rgba(150, 108, 53, 0.1) 0px 16px 56px;
+    
+}
+
+.submit-button{
+    background-color: #ffa333;
+}

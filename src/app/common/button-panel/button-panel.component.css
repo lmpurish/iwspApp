@@ -1,0 +1,57 @@
+.central-nav {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.central-nav div {
+    margin: 10px 0 0 0;
+}
+
+.buttons-carousel{
+    max-width: 100%;
+}
+.buttons-carousel a {
+    list-style: none;
+    margin: 10px;
+
+}
+
+
+.button-menu {
+    max-width: 110px;
+}
+
+.button-menu:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+@media (min-width: 768px) {
+    .central-nav div {
+        margin: 10px 0 0 50px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
