@@ -5,3 +5,20 @@ body{
 }
 
 
+.iTitle{
+    font-size: 50px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    padding: 25px;
+}
+
+.submit-button{
+    background-color: #ffa333;
+    
+    
+}
+
+.submit-button:hover{
+    background-color: #b86500 !important;
+    color: #FAFAFA;
+}

@@ -1,0 +1,24 @@
+.iFormat{
+    padding: 50px;
+}
+
+.iws-card{
+    min-width: 250px;
+    min-height: 650px;
+    padding: 20px;
+    box-shadow: rgba(240, 132, 8, 0.1) 0px 4px 16px, rgba(110, 50, 9, 0.1) 0px 8px 24px, rgba(150, 108, 53, 0.1) 0px 16px 56px;
+}
+.iws-card-title{
+    min-height: 200px;
+    padding: auto;
+    text-align: center;
+    
+}
+.namePackages{
+    font-size: 3vw;
+    color: #ffa333;
+    
+}
+.iPrice{
+    font-size: 40px;
+}
